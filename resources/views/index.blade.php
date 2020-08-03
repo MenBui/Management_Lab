@@ -1,6 +1,29 @@
 @extends('layout.layout')
 
 @section('content')
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">TRANG CHỦ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{URL::route('login')}}">GIẢNG VIÊN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{URL::route('login')}}">SINH VIÊN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{URL::route('login')}}">DOANH NGHIỆP</a>
+        </li>    
+      </ul>
+    </div>   
+  </div>
+</nav>
+<div class="main-banner">
+  <img class="gwt-Image" src="https://storage.googleapis.com/hust-files/images/hust-banner-01_1.2m.png" style="width: 100%;">
+</div>
 <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-4">
