@@ -17,7 +17,6 @@
 </head>
 <body>
 
-<<<<<<< HEAD
 <div class="jumbotron text-center" style="margin-bottom:0">
   <h1>HỆ THỐNG QUẢN LÝ PHÒNG LAB</h1>
   <p>TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI - VIỆN CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG</p> 
@@ -42,7 +41,6 @@
     </ul>
   </div>  
 </nav>
-=======
 <div class="container">
   <div class="first-header-panel clearfix">
     <div class="col-xs-12 col-sm-7 first-header-logo-panel">

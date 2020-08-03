@@ -1,0 +1,196 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.first-header-panel {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.first-header-logo-panel {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-left: 0 !important;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+.first-header-logo-panel .web-name-title {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.first-header-logo-panel .school-name-title {
+    font-size: 15px;
+}
+
+.first-header-info-panel {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 0 !important;
+}
+
+.btn-login-main-style {
+    background: white;
+    border: 1px solid #d9241b;
+    color: #d9241b;
+    padding: 4px 12px;
+    text-transform: uppercase;
+    margin-left: 3px;
+}
+
+.header-profile-panel {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.first-header-search-panel {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    display: none;
+}
+
+.search-box-main-style {
+    padding: 3px 10px;
+    vertical-align: middle;
+}
+
+.btn-search-main-style {
+    background: #d9241b;
+    border: 0;
+    padding: 4px 5px;
+    margin-left: 2px;
+    outline: none;
+}
+
+.btn-search-main-style i {
+    font-size: 20px;
+    color: white;
+}
+
+.button-connect-facebook, .button-connect-google {
+    cursor: pointer;
+}
+
+.header-account-info-panel {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.header-account-info-panel .imageAvatar img {
+    border-radius: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.header-account-info-panel .imageAvatar img {
+    border-radius: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+.account-info-dropdown-ul>li>a {
+    padding: 10px 15px !important;
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+.first-header-logo-panel>div {
+    padding: 10px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+}
+
+.main-banner {
+    width: 100%;
+}
+
+.second-header-panel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #444;
+    color: white;
+}
+
+.footer-panel {
+    background: #9b0504;
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 1px;
+}
+
+.contact-info-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-left: 0 !important;
+}
+
+.contact-info-footer>div {
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.col-sm-8 {
+    width: 66.66666667%;
+    float: left;
+}
+
+.col-sm-4 {
+    width: 33.33333333%;
+    float: right;
+}
+
+.contact-info-footer>img {
+    border: 1px solid white;
+}
+
+.contact-info-footer p {
+    margin-bottom: 0;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+.MGB {
+    color: white;
+}
