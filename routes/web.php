@@ -25,8 +25,8 @@ Route::get('/index', function () {
 });
 
 
-// Route::get('/homeuser', function () {
-//     return view('homeuser');
+// Route::get('/listLab', function () {
+//     return view('labs.listLab');
 // });
 
 Route::get('/reset_passwordd', function () {
@@ -46,8 +46,17 @@ Route::post('register',['as'=>'register','uses'=>'Auth\RegisterController@postRe
 
 Route::get('logout',['as'=>'logout','uses'=>'Auth\LoginController@logout']);
 
+//Lab
+Route::get('listLab',['as'=>'listLab','uses'=>'HomeController@listLab']);
+Route::get('addLab',['as'=>'addLab','uses'=>'HomeController@addLab']);
+Route::post('postAddLab',['as'=>'postAddLab','uses'=>'HomeController@postAddLab']);
+Route::get('deleteLab',['as'=>'deleteLab','uses'=>'HomeController@deleteLab']);
+Route::get('editLab',['as'=>'editLab','uses'=>'HomeController@editLab']);
 
-Route::group(['prefix'=>'auth','middleware'=>'auth'],function(){
 
-	// Route::get('index',['as'=>'authIndex','uses'=>'AdminController@index']);
-});
+//User
+Route::get('listUser',['as'=>'listUser','uses'=>'HomeController@listUser']);
+Route::get('addUser',['as'=>'addUser','uses'=>'HomeController@addUser']);
+Route::post('postAddUser',['as'=>'postAddUser','uses'=>'HomeController@postAddUser']);
+Route::get('deleteUser',['as'=>'deleteUser','uses'=>'HomeController@deleteUser']);
+Route::get('editUser',['as'=>'editUser','uses'=>'HomeController@editUser']);
